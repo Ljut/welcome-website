@@ -1,0 +1,14 @@
+[debug] [2023-12-12T16:51:37.590Z] ----------------------------------------------------------------------
+[debug] [2023-12-12T16:51:37.592Z] Command:       /usr/local/bin/firebase-tools-macos /Users/zlatan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-12-12T16:51:37.592Z] CLI Version:   13.0.1
+[debug] [2023-12-12T16:51:37.592Z] Platform:      darwin
+[debug] [2023-12-12T16:51:37.593Z] Node Version:  v18.5.0
+[debug] [2023-12-12T16:51:37.596Z] Time:          Tue Dec 12 2023 17:51:37 GMT+0100 (Central European Standard Time)
+[debug] [2023-12-12T16:51:37.596Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-12T16:51:37.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-12T16:51:37.691Z] > authorizing via signed-in user (zlatan.ljutika@2gimnazija.edu.ba)
+[debug] [2023-12-12T16:51:37.692Z] [iam] checking project welcomefury-1ed5b for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2023-12-12T16:51:37.693Z] > refreshing access token with scopes: []
+[debug] [2023-12-12T16:51:37.695Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-12T16:51:37.696Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]

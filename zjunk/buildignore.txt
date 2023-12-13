@@ -1,0 +1,10 @@
+.firebase
+.github
+public
+.firebaserc
+.gitignore
+build.sh
+README.md
+zafirebase.txt
+.DS_Store
+.git

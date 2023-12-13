@@ -1,10 +1,13 @@
 {
-"hosting": {
-
-    "site": "welcomefurry",
-
-    "public": "public"
-
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
-
 }
