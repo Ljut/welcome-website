@@ -6,13 +6,14 @@
     <body>
         <h1>Welcome <id id="f1">F___</id>!</h1>
         <p>With your password, I will generate your data.<br>
-            Data consists of id, name, your date of birth<br>
+            Data consists of id, name, your date of birth <br>
+            (12 characters is managable)<br>
         </p>
         <div>
             <table>
                 <tr>
                     <th>Password: </th>
-                    <th><input type="text" id="passkey"></th>
+                    <th><input type="text" id="passkey" value=""></th>
                     <th><button id="load" onclick="load()">load</button></th>
                 </tr>
                 <tr></tr>
@@ -35,6 +36,39 @@
                 <tr>
                     <th>Base10:</th>
                     <th id="base10"></th>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <div>
+            <table>
+                <tr>
+                    <th>Password10: </th>
+                    <th><input type="text" id="passkey10" value=""></th>
+                    <th><button id="load10" onclick="load10()">load</button></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th>Id10:</th>
+                    <th id="id10"></th>
+                </tr>
+                <tr>
+                    <th>Name10:</th>
+                    <th id="name10"></th>
+                </tr>
+                <tr>
+                    <th>Date of birth10:</th>
+                    <th id="date10"></th>
+                </tr>
+                <tr>
+                    <th>Base62 10:</th>
+                    <th id="base6210"></th>
+                </tr>
+                <tr>
+                    <th>Base10 62:</th>
+                    <th id="base1062"></th>
                 </tr>
             </table>
         </div>
